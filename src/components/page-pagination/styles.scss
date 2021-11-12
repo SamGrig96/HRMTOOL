@@ -1,0 +1,24 @@
+.pagination-wrapper {
+  margin: 15px 0
+}
+
+.page-item {
+  list-style-type: none;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.page-item:hover {
+  color: grey;
+  background-color: #f3f3f3;
+  border: none;
+  cursor: pointer;
+}
+
+.page-item:active {
+  color: white;
+  background-color: dimgrey;
+}

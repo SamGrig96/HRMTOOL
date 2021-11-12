@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.add-button {
+  text-align: right;
+}
+
+.table-container {
+  margin: 20px 40px 0 0;
+  text-align: left;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+td, th {
+  border-top: 1px solid #ECF0F1;
+  padding: 10px;
+  [onclick] {
+    cursor: pointer; 
+   };
+   
+ 
+}
+td:hover{
+  cursor: pointer;
+}
+
+td {
+  border-left: 1px solid #ECF0F1;
+  border-right: 1px solid #ECF0F1;
+  
+  
+}
+
+th {
+  background-color: #c2c2c2;
+}
+
+tr:nth-of-type(even) td {
+  background-color: lighten(#c2c2c2, 20%);
+}
+
+span {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.table_img {
+  height: 40px;
+  width: 40px
+}
+
+.faEdit{
+  font-size: 1em;
+  color: #4e89ec;
+}
+
+.bsTrash {
+  font-size: 1em;
+  color: red;
+}
+
+.total-number {
+  font-size: 12px;
+  margin-top: 15px;
+}

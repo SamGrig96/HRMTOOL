@@ -1,0 +1,43 @@
+.sidebar {
+  height: calc(100vh - 72px);
+  overflow-y: auto;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &_section {
+    &_title {
+      background-color: #4e89ec;
+      height: 38px;
+      color: white;
+      text-decoration: none;
+      padding: 10px 0 0 10px;
+    }
+
+    &_item {
+      display: block;
+      color: #000000;
+      text-decoration: none;
+      font-size: 12px;
+      text-align: left;
+      background-color: rgba(242, 243, 245, 1);
+      border-bottom: 1px solid #c2c2c2;
+      //font-weight: bold;
+      padding: 16px 24px;
+      border-right: 1px solid gray;
+
+      &.active {
+        border-right: none;
+        background: white;
+      }
+
+      &:hover {
+        background-color: rgba(242, 243, 245, .3);
+      }
+    }
+  }
+}

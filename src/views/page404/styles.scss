@@ -1,0 +1,27 @@
+.page-404 {
+  display: flex;
+  flex: 1;
+  min-height: 75vh;
+  justify-content: center;
+  align-items: center;
+
+  &_content {
+
+    &_title {
+
+    }
+
+    &_description {
+
+    }
+
+    &_button {
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

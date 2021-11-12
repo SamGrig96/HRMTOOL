@@ -1,0 +1,72 @@
+.dashboard {
+  * {
+    font-size: 12px;
+  }
+
+
+  .announcement-section{
+    width: 350px;
+    height: 400px;
+    overflow-y:scroll;
+    -webkit-box-shadow: 0 1px 3px 0;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px 0 ;
+    border: 1px solid gray;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background-color: #f2f2f2;
+    margin-top: 25px;
+    margin-bottom: 24px;
+    h1{
+      font-size: 24px;
+      position: fixed;
+    }
+
+    .header{
+    width: 348px;
+    height: 50px;
+    padding: 15px 25px;
+    border-bottom: 1px solid #f7f7f7;
+    position: fixed;
+    background-color: #f2f2f2
+    }
+    .link-section{
+      color:black;
+      text-decoration:none
+      }
+    .info-section{
+      width: 100%;
+    height: 0px;
+    margin-top: 65px;
+    display: flex;
+    
+    .left-content{
+      width: 70%;
+      height: 100%;
+      padding-left: 25px;
+
+    
+    }
+    .rigth-content{
+      width: 30%;
+      height: 100%;
+    
+      display: flex;
+      justify-content: flex-end;
+    }
+    .rigth-content img{
+      width: 50px;
+      height: 50px;
+      border-radius:50% ;
+    }
+    .infinite-scroll-component {
+      height: 350px;
+    }
+  }
+
+  }
+  .announcement-section::-webkit-scrollbar {
+    display: none;
+  }
+}
